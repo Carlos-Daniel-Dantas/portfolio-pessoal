@@ -19,3 +19,51 @@
     height: 100vh;
     width: 100vw;
 }
+
+.interface-tx > h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #000000;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.interface-tx > p{
+    display: flex;
+
+
+    color: #000000;
+    font-size: 20px;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px ;
+    border-radius: 20px;
+
+}
+.imagens{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 1px;
+    border-radius: 200px;
+    height: 300px;
+
+}
+
+.imagens IMG{
+    border-radius: 20px;
+    border: 3px solid #8A2BE2; /* Borda roxa de 3px, sólida */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.imagens IMG:HOVER{
+    transform: scale(1.15);
+}
+

@@ -1,0 +1,30 @@
+/* ===== CÓDIGO CORRIGIDO PARA O RODAPÉ ===== */
+
+footer {
+    width: 100%; 
+    padding: 40px 0; 
+    border-top: 1px solid #2c2c2c; 
+    background-color: #121212; 
+}
+
+
+.redes-sociais {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    gap: 30px;               
+    padding: 0;             
+    margin: 0;              
+}
+
+
+.icon-social {
+    width: 45px;  
+    height: 45px; 
+    object-fit: contain; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-social:hover {
+    transform: scale(1.15);
+}
