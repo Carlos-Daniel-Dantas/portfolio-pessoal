@@ -26,8 +26,6 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 * **HTML5:** Para a estrutura e semântica do conteúdo.
 * **CSS3:** Para estilização, layout (com Flexbox) e animações.
-* **JavaScript (Vanilla JS):** Para a interatividade, como o efeito de digitação e o filtro de busca de projetos.
-* **Bootstrap Icons:** Para os ícones utilizados no projeto.
 * **Google Fonts:** Para a tipografia do site.
 
 ---
