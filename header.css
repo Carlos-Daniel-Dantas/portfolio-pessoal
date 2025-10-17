@@ -1,0 +1,48 @@
+.header{
+
+    padding: 40px 4%;
+    background-color: #0000003f;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+
+}
+
+
+header a{
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+    
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .contato button{
+
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}

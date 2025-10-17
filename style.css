@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.content-inicio {
+    background-color: rgb(0, 0, 0);
+}
+
+.topo-do-site .flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+
+}
+
+.topo-do-site img {
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 25px rgba(87, 70, 255, 0.3);
+}
+
+.topo-do-site h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #ffffff;
+  padding: 60px;
+
+}
+
+.topo-do-site p {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  color: #b5b8c7;
+
+  font-size: 25px;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais {
+    gap: 20px;
+    display: flex;
+}
+
+.icon-social {
+    width: 48px;
+    transition: 0.5s ease-in-out;
+}
+
+.icon-social:hover {
+
+    transform: scale(1.10) rotate(360deg);
+
+}
+
+
